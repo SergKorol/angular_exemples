@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  background: white;
+  height: 1300px;
+
+}
+
+.fieldset {
+
+  border-radius: 10px;
+}
+
+legend {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
